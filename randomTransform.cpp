@@ -73,10 +73,12 @@ int main() {
 
     std::cout << "xMin=" << v.bounds.xMin << std::endl;
     std::cout << "xMMax=" << v.bounds.xMax << std::endl;
-    
+
     std::cout << "yMin=" << v.bounds.yMin << std::endl;
     std::cout << "yMax=" << v.bounds.yMax << std::endl;
 
     std::cout << "zMin=" << v.bounds.zMin << std::endl;
     std::cout << "zMax=" << v.bounds.zMax << std::endl;
+
+    return 0;
 }
